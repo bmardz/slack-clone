@@ -37,6 +37,13 @@
     min-width: 35vw;
 }
 
-.header__right {
+.header__right{
     flex: 0.3;
+    display: flex;
+    align-items: flex-end;
+}
+
+.header__right > .MuiSvgIcon-root {
+    margin-left: auto;
+    margin-right: 20px;
 }
